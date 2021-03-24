@@ -14,7 +14,7 @@ const FunctionalProps = (props) => {
   return (
     <Container>
       <h3>From the Function Component</h3>
-      {displayAlerts()}
+      {displayAlerts()} 
     </Container>
   );
 };

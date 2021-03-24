@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "reactstrap";
 
 import FunctionalProps from "./components/FunctionalProps";
-
+import ClassComponentProps from "./components/ClassComponentProps.jsx";
 function App() {
   const numArray = [3, 5, 6, 7, 2, 6, 23, 5, 34];
   return (
@@ -15,6 +15,7 @@ function App() {
         </p>
       </Container>
       <FunctionalProps numbers={numArray} />
+      <ClassComponentProps numbers={numArray} />
     </div>
   );
 }
